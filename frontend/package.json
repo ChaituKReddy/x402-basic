@@ -1,0 +1,16 @@
+{
+  "name": "frontend",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@x402/evm": "^2.9.0",
+    "@x402/fetch": "^2.9.0",
+    "viem": "^2.47.10"
+  }
+}

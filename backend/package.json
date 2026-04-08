@@ -1,0 +1,19 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@x402/core": "^2.9.0",
+    "@x402/evm": "^2.9.0",
+    "@x402/express": "^2.9.0",
+    "@x402/svm": "^2.9.0",
+    "express": "^5.2.1"
+  }
+}
