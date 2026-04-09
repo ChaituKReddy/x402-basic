@@ -11,10 +11,6 @@ client.register("eip155:*", new ExactEvmScheme(signer));
 
 const fetchWithPayment = wrapFetchWithPayment(fetch, client);
 
-const response = await fetchWithPayment("http://localhost:8080/weather", {
-  method: "GET",
-});
-
 try {
   const response = await fetchWithPayment("http://localhost:8080/weather", {
     method: "GET",
